@@ -54,16 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\balascript.cs" />
-     <Compile Include="Assets\script\colision.cs" />
      <Compile Include="Assets\script\contar.cs" />
      <Compile Include="Assets\script\controlCanon.cs" />
      <Compile Include="Assets\script\destruircubo.cs" />
      <Compile Include="Assets\script\disparar.cs" />
-     <Compile Include="Assets\script\disparo_automatico.cs" />
      <Compile Include="Assets\script\enemigo_random.cs" />
-     <Compile Include="Assets\script\exploshion.cs" />
-     <Compile Include="Assets\script\explosionfin.cs" />
-     <Compile Include="Assets\script\mover.cs" />
      <Compile Include="Assets\script\seguir.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/g/Documents/Unity/robot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
