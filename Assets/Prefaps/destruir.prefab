@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3058946475011653667}
   - component: {fileID: 3058946475011653670}
   - component: {fileID: 3058946475011653666}
+  - component: {fileID: 2205759928583652703}
   - component: {fileID: 3058946475011653671}
   m_Layer: 0
   m_Name: destruir
@@ -105,6 +106,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2205759928583652703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3058946475011653665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57cc279273d9384f852d00df9ffa157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tanque: {fileID: 8089014388445495043, guid: 84a7e11da23832b468714b635228d3cb, type: 3}
+  speedbala: 1
 --- !u!54 &3058946475011653671
 Rigidbody:
   m_ObjectHideFlags: 0

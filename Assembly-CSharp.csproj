@@ -64,6 +64,7 @@
      <Compile Include="Assets\script\exploshion.cs" />
      <Compile Include="Assets\script\explosionfin.cs" />
      <Compile Include="Assets\script\mover.cs" />
+     <Compile Include="Assets\script\seguir.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/g/Documents/Unity/robot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
