@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/tanque.unity
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
     guid: 4f8af3c33d094694ca079adba82f0efd
+  - enabled: 0
+    path: Assets/Scenes/Inicio.unity
+    guid: 08986b73d4927f34995d7a4470ba29b8
   m_configObjects: {}
