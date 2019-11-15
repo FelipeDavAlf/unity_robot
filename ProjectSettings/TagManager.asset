@@ -9,6 +9,7 @@ TagManager:
   - tanque
   - misil
   - Fire
+  - armas
   layers:
   - Default
   - TransparentFX
