@@ -10,6 +10,11 @@ TagManager:
   - misil
   - Fire
   - armas
+  - arma_izq
+  - arma_der
+  - menu
+  - municion_izq
+  - municion_der
   layers:
   - Default
   - TransparentFX

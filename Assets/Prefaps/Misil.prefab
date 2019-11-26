@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedbala: 5
-  explotar: {fileID: 100010, guid: 645413a00f7bd0242bbd6d0e5eb6f439, type: 3}
+  danio: 1
 --- !u!54 &7676233559692354300
 Rigidbody:
   m_ObjectHideFlags: 0

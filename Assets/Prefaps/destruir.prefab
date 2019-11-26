@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57cc279273d9384f852d00df9ffa157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: {fileID: 8647118157526502164, guid: 8f23a849022a8ed47be9a5cadf14c4da, type: 3}
+  vida: {fileID: 0}
   speed: 1
 --- !u!54 &3058946475011653671
 Rigidbody:

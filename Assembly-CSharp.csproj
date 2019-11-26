@@ -54,14 +54,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\armas.cs" />
-     <Compile Include="Assets\script\bajar_vida.cs" />
      <Compile Include="Assets\script\balascript.cs" />
      <Compile Include="Assets\script\contar.cs" />
      <Compile Include="Assets\script\controlCanon.cs" />
      <Compile Include="Assets\script\destruircubo.cs" />
      <Compile Include="Assets\script\disparar.cs" />
      <Compile Include="Assets\script\enemigo_random.cs" />
-     <Compile Include="Assets\script\menu.cs" />
+     <Compile Include="Assets\script\instan_armas.cs" />
+     <Compile Include="Assets\script\Menu_Armas.cs" />
+     <Compile Include="Assets\script\rayo.cs" />
      <Compile Include="Assets\script\seguir.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -111,6 +112,7 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Models\Arma1\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
