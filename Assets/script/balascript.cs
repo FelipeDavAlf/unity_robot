@@ -12,8 +12,8 @@ public class balascript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.gameObject.name="bala";
         Destroy(this.gameObject, 3); 
-
     }
 
     // Update is called once per frame
@@ -21,8 +21,12 @@ public class balascript : MonoBehaviour
     {
         transform.Translate(Vector3.forward* Time.deltaTime*speedbala,Space.Self);
     }
-    void OnCollisionEnter(UnityEngine.Collision other){       
-      Destroy(Instantiate(explotar , this.transform.position, this.transform.rotation),2);
-      Destroy(this.gameObject, 0);                
-        }
+
+   
+    void OnCollisionEnter(Collision other){       
+        if(other.gameObject.name=="aracnido(Clone)"){
+            Destroy(Instantiate(explotar , this.transform.position, this.transform.rotation),2);
+            Destroy(this.gameObject, 0);    
+        }            
+    }
 }

@@ -41,23 +41,12 @@ public class Menu_Armas : MonoBehaviour
         SceneManager.LoadScene(nombre);
     }
 
-   /* public int[] ids(){
-        int cont=0;
-        for (int i = 0; i < armas.Length; i++){
-            if(armas[i]){
-               id_armas[cont]=i; 
-               cont++;
-            }    
-        }
-        
-        return id_armas;
-    }*/
     public void cerrar_juego(){
         Application.Quit();
         Debug.Log("Salisteeeee");
     }
 
-        public void Comprobar_armas(){
+    public void Comprobar_armas(){
             num_armas=0;
         if(GameObject.Find("Arma1").GetComponent<Toggle>().isOn)
             armas[0]=true;
