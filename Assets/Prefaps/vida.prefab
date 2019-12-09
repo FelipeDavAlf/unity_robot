@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5728576842565708683}
   m_LocalRotation: {x: -0.08447853, y: -0, z: -0, w: 0.9964254}
   m_LocalPosition: {x: -0.27834406, y: 0.17262876, z: 0.41900548}
-  m_LocalScale: {x: 0.13802445, y: 0.13367227, z: 0.14874057}
+  m_LocalScale: {x: 0.13802445, y: 0.13367227, z: 0.6845636}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -77,7 +77,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5728576842565708683}
-  m_Text: Vida:26
+  m_Text: '*****'
   m_OffsetZ: 0
   m_CharacterSize: 0.2
   m_LineSpacing: 1

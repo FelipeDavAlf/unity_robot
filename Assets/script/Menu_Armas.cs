@@ -8,22 +8,20 @@ public class Menu_Armas : MonoBehaviour
 {
     int num_armas=0;
     static bool[] armas=new bool [3]; 
-    GameObject boton_jugar;
+    public Button boton_jugar;
     // Start is called before the first frame update 
     void Start(){
         /*foreach (var item in armas){
             Debug.Log(item);
         }*/
-        if (this.CompareTag("menu")){
-            boton_jugar=GameObject.Find("Jugar");
-            if (boton_jugar!=null){
-                boton_jugar.gameObject.GetComponent<Button>().interactable=false;
-            }
-        }
+        //if (this.CompareTag("menu")){
             
-            
+        //   if (boton_jugar!=null){
+        //        Debug.Log("entro");
+            boton_jugar.interactable=false;
+         //   }
+        //}  
     }
-
     public int[] armas_Get(){
         int[] id=new int[2];
         int cont=0;
@@ -37,9 +35,10 @@ public class Menu_Armas : MonoBehaviour
         return id;
     }
     public void jugar(string nombre){
-        
+        Time.timeScale=1;
         SceneManager.LoadScene(nombre);
     }
+
 
     public void cerrar_juego(){
         Application.Quit();
@@ -48,16 +47,21 @@ public class Menu_Armas : MonoBehaviour
 
     public void Comprobar_armas(){
             num_armas=0;
-        if(GameObject.Find("Arma1").GetComponent<Toggle>().isOn)
+        if(GameObject.Find("Arma1").GetComponent<Toggle>().isOn){
+            
             armas[0]=true;
+        }
+            
         else
             armas[0]=false;
         if(GameObject.Find("Arma2").GetComponent<Toggle>().isOn)
             armas[1]=true;
-        else
+        else{
             armas[1]=false;
+        }   
+            
         if(GameObject.Find("Arma3").GetComponent<Toggle>().isOn)
-            armas[2]=true; 
+            armas[2]=true;  
         else
             armas[2]=false;  
         foreach (bool item in armas){

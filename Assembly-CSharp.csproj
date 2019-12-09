@@ -55,11 +55,16 @@
   <ItemGroup>
      <Compile Include="Assets\script\balascript.cs" />
      <Compile Include="Assets\script\controlCanon.cs" />
+     <Compile Include="Assets\script\cuemta_historia.cs" />
      <Compile Include="Assets\script\destruircubo.cs" />
      <Compile Include="Assets\script\disparar.cs" />
      <Compile Include="Assets\script\enemigo_random.cs" />
+     <Compile Include="Assets\script\Game_over.cs" />
+     <Compile Include="Assets\script\Historia.cs" />
      <Compile Include="Assets\script\instan_armas.cs" />
      <Compile Include="Assets\script\Menu_Armas.cs" />
+     <Compile Include="Assets\script\puntaje.cs" />
+     <Compile Include="Assets\script\retomar.cs" />
      <Compile Include="Assets\script\seguir.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
